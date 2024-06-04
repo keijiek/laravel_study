@@ -29,12 +29,13 @@ grant all on laravel.* to hoge@localhost
 
 ### 要求された php モジュール
 
-`php --ini` や `php -m` で確認。<br />
-`apt search` や `apt show` で調べる。
-
 - mbstring
 - mysql
 - xml
+
+`php --ini` や `php -m` で確認。<br />
+`apt search` や `apt show` で正式名称を調べる。<br />
+`sudo apt install php-mbstring php-mysql php-xml` のようにインストール
 
 ---
 
